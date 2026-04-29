@@ -1,0 +1,30 @@
+{
+    "name": "Ext Manager",
+    "description": "Pinnable popup to enable and disable installed browser extensions.",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "permissions": ["management", "storage"],
+    "host_permissions": ["https://addons.mozilla.org/*"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Ext Manager",
+        "default_icon": {
+            "16": "/images/ext-manager-16.png",
+            "32": "/images/ext-manager-32.png",
+            "48": "/images/ext-manager-48.png",
+            "128": "/images/ext-manager-128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/ext-manager-16.png",
+        "32": "/images/ext-manager-32.png",
+        "48": "/images/ext-manager-48.png",
+        "128": "/images/ext-manager-128.png"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "ext-manager@mrtysn.local",
+            "strict_min_version": "109.0"
+        }
+    }
+}
