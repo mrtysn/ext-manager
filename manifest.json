@@ -1,7 +1,7 @@
 {
     "name": "Ext Manager",
     "description": "Pinnable popup to enable and disable installed browser extensions.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "manifest_version": 3,
     "permissions": ["management", "storage"],
     "host_permissions": ["https://addons.mozilla.org/*"],
